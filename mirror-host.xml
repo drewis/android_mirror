@@ -2,6 +2,7 @@
 
   <remote fetch="https://android.googlesource.com/" name="aosp" />
   <remote fetch="git://github.com/Evervolv/" name="github" />
+  <remote fetch="https://github.com/drewis/" name="drewis" />
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4" />
 
 
@@ -80,6 +81,7 @@
 
   
   <project name="android" remote="github" revision="jellybean" />
+  <project name="android_mirror" remote="drewis" revision="jb-mirror"/>
   <project name="android_external_bash" remote="github" revision="jellybean" />
   <project name="android_external_busybox" remote="github" revision="jellybean" />
   <project name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
