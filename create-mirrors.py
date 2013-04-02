@@ -29,7 +29,7 @@ for project in root:
         if project.get('name') == 'github':
             root.remove(project)
         elif project.get('name') == 'aosp':
-            project.set('fetch','..')
+            project.set('fetch','.')
 
 tree.write('mirror-client.xml')
 
