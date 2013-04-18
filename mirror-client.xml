@@ -1,6 +1,6 @@
 <manifest>
 
-  <remote fetch="." name="aosp" review="https://android-review.googlesource.com/" />
+  <remote fetch="." name="mirror" />
   <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4" />
 
 
@@ -127,8 +127,8 @@
   <project name="device/generic/common" path="device/generic/common" />
 
 
-  <project groups="device" name="device/google/accessory/arduino" path="device/google/accessory/arduino" />
-  <project groups="device" name="device/google/accessory/demokit" path="device/google/accessory/demokit" />
+  <project name="device/google/accessory/arduino" path="device/google/accessory/arduino" />
+  <project name="device/google/accessory/demokit" path="device/google/accessory/demokit" />
   <project name="device/sample" path="device/sample" />
 
 
@@ -350,20 +350,20 @@
   <project name="platform/pdk" path="pdk" />
 
 
-  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" />
-  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" />
+  <project name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" />
+  <project name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" />
   <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" />
-  <project groups="notdefault,eclipse" name="platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps" />
-  <project groups="notdefault,eclipse" name="platform/prebuilts/eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources" />
+  <project name="platform/prebuilts/eclipse-build-deps" path="prebuilts/eclipse-build-deps" />
+  <project name="platform/prebuilts/eclipse-build-deps-sources" path="prebuilts/eclipse-build-deps-sources" />
 
 
 
 
-  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
-  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
-  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
-  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
-  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
 
 
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk" />
@@ -372,6 +372,6 @@
   <project name="platform/prebuilts/tools" path="prebuilts/tools" />
   <project name="platform/system/media" path="system/media" />
   <project name="platform/system/netd" path="system/netd" />
-  <project groups="toolsbuild" name="platform/tools/build" path="tools/build" />
+  <project name="platform/tools/build" path="tools/build" />
   <project name="platform/tools/motodev" path="tools/motodev" />
 </manifest>
