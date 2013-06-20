@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
-	<remote fetch=".." name="ev"/>
+	<remote fetch="https://github.com/Evervolv/" name="ev"/>
 	<default remote="ev" revision="jellybean"/>
 	<project name="android"/>
 	<project name="android_bionic"/>
