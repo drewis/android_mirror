@@ -37,7 +37,7 @@ ET.SubElement(root, "remote", name="%s" % def_remote, fetch="%s" % def_fetch_url
 
 for r in repos:
     ET.SubElement(root, "project", name="%s" % r, 
-            remote="%s" % def_remote, revision="%s" % def_revision)
+            remote="%s" % def_remote)
 
 tree = ET.ElementTree(root)
 tree.write("manifest.xml" ,encoding="UTF-8", xml_declaration=True)
