@@ -9,8 +9,9 @@ except ImportError:
 import json
 import xml.etree.ElementTree as ET
 
-def_remote = "ev"
+def_remote = "github"
 def_revision = "jellybean"
+def_fetch_url = "https://github.com/Evervolv/"
 url = "https://api.github.com/orgs/Evervolv/repos?per_page=100"
 repos = []
 
@@ -31,11 +32,12 @@ while True:
 repos.sort()
 
 root = ET.Element("manifest")
-ET.SubElement(root, "remote", name="%s" % def_remote, fetch="..")
-ET.SubElement(root, "default", revision="%s" % def_revision, remote="%s" % def_remote)
+ET.SubElement(root, "remote", name="%s" % def_remote, fetch="%s" % def_fetch_url)
+#ET.SubElement(root, "default", revision="%s" % def_revision, remote="%s" % def_remote)
 
 for r in repos:
-    ET.SubElement(root, "project", name="%s" % r)
+    ET.SubElement(root, "project", name="%s" % r, 
+            remote="%s" % def_remote, revision="%s" % def_revision)
 
 tree = ET.ElementTree(root)
 tree.write("manifest.xml" ,encoding="UTF-8", xml_declaration=True)
