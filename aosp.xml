@@ -69,6 +69,7 @@
   <project name="platform/docs/source.android.com" />
   <project name="platform/external/aac" />
   <project name="platform/external/aes" />
+  <project name="platform/external/alac" />
   <project name="platform/external/android-clat" />
   <project name="platform/external/android-mock" />
   <project name="platform/external/ant-glob" />
@@ -154,6 +155,7 @@
   <project name="platform/external/iproute2" />
   <project name="platform/external/ipsec-tools" />
   <project name="platform/external/iptables" />
+  <project name="platform/external/iputils" />
   <project name="platform/external/jack" />
   <project name="platform/external/javasqlite" />
   <project name="platform/external/javassist" />
@@ -447,6 +449,7 @@
   <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6" />
   <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
   <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+  <project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
@@ -461,6 +464,7 @@
   <project name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
+  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
   <project name="platform/prebuilts/misc" />
   <project name="platform/prebuilts/ndk" />
   <project name="platform/prebuilts/python/darwin-x86/2.7.5" />
@@ -487,6 +491,7 @@
   <project name="platform/tools/idea" />
   <project name="platform/tools/loganalysis" />
   <project name="platform/tools/motodev" />
+  <project name="platform/tools/studio/cloud" />
   <project name="platform/tools/swt" />
   <project name="platform/tools/tradefederation" />
   <project name="platform/vendor/htc/dream-open" />
