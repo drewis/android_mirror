@@ -13,7 +13,8 @@ for project in root:
         aosp_repos.append(project.get('name'))
 
 # Extract all projects from ev mirror manifest
-tree = ET.parse('local_mirror_manifest.xml')
+local_mirror_manifest = "evervolv.xml"
+tree = ET.parse(local_mirror_manifest)
 root = tree.getroot()
 
 ev_repos = []

@@ -13,7 +13,7 @@ def_remote = "ev"
 def_revision = "jellybean"
 def_fetch_url = "https://github.com/Evervolv/"
 url = "https://api.github.com/orgs/Evervolv/repos?per_page=100"
-local_mirror_manifest = "local_mirror_manifest.xml"
+local_mirror_manifest = "evervolv.xml"
 repos = []
 
 while True:
