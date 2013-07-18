@@ -1,0 +1,10 @@
+This branch is for setting up git clones suitable for repo --mirror
+aosp.xml			AOSP mirror manifest
+create-mirror-manifest.py	Create evervolv mirror manifest
+create-mirrors.py		Crap for manipulating manifests
+ev_unique.xml			Manifest of evervolv projects not it aosp
+evervolv.xml			Manifest created by create-mirror-manifest
+README				This file
+setup-combined-mirror.py	Create ev_unique from aosp and evervolv
+				 if enabled will create symlinks for ev hosted aosp
+				 projects and add remotes for ev,cm, and caf
