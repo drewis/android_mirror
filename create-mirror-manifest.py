@@ -13,6 +13,7 @@ def_remote = "github"
 def_revision = "jellybean"
 def_fetch_url = "https://github.com/Evervolv/"
 url = "https://api.github.com/orgs/Evervolv/repos?per_page=100"
+local_manifest = "local_mirror_manifest.xml"
 repos = []
 
 while True:
@@ -23,29 +24,29 @@ while True:
             break
         retrys += 1
     content = json.loads(req.text)
-    repos.extend([ c.get('name') for c in content ])
+    repos.extend([ (c.get('name'),c.get('master_branch')) for c in content ])
     try:
         url = req.links['next']['url']
     except KeyError:
         break
 
-repos.sort()
+repos.sort(key=lambda n: n[0])
 
 root = ET.Element("manifest")
 ET.SubElement(root, "remote", name="%s" % def_remote, fetch="%s" % def_fetch_url)
 #ET.SubElement(root, "default", revision="%s" % def_revision, remote="%s" % def_remote)
 
 for r in repos:
-    ET.SubElement(root, "project", name="%s" % r, 
-            remote="%s" % def_remote)
+    ET.SubElement(root, "project", name="%s" % r[0], 
+            remote="%s" % r[1])
 
 tree = ET.ElementTree(root)
-tree.write("manifest.xml" ,encoding="UTF-8", xml_declaration=True)
+tree.write(local_mirror_manifest ,encoding="UTF-8", xml_declaration=True)
 # ^^ Super ugly oneline xml doc, Better way ?
 # Pretty print xml
 import xml.dom.minidom as md
-xml = md.parse("manifest.xml")
-with open("manifest.xml", 'w') as f:
+xml = md.parse(local_mirror_manifest)
+with open(local_mirror_manifest, 'w') as f:
     f.write(xml.toprettyxml())
 
-print "Done creating %s" %  "mainfest.xml"
+print "Done creating %s" %  local_mirror_manifest
