@@ -8,3 +8,16 @@ README				This file
 setup-combined-mirror.py	Create ev_unique from aosp and evervolv
 				 if enabled will create symlinks for ev hosted aosp
 				 projects and add remotes for ev,cm, and caf
+
+to use:
+	repo init -u https://android.googlesource.com/mirror/manifest --mirror
+
+then:
+	either:
+		drop evervolv.xml into local_manifests
+	or:
+		drop ev_unique.xml and shared.xml into local_manifests
+		this method will save some space and bandwidth as it removes
+		the shared aosp projects
+
+repos can then be init'd with the --reference option

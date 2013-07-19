@@ -1,7 +1,8 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python2
 import xml.etree.ElementTree as ET
 import os
 import subprocess
+import xml.dom.minidom as md
 
 # Extract all projects form aosp mirror manifest
 tree = ET.parse('aosp.xml')
@@ -75,12 +76,11 @@ ev_mapping = zip(ev_repos,ev_repos_converted)
 # Map as dict (to find real name from converted one)
 ev_mapping_rev_dict = dict(zip(ev_repos_converted,ev_repos))
 # Match common projects
-shared = set(ev_repos_converted) & set(aosp_repos)
+shared = sorted(set(ev_repos_converted) & set(aosp_repos))
 # Locate unique ev projects
-ev_unique = set(ev_repos_converted) - set(aosp_repos)
+ev_unique = sorted(set(ev_repos_converted) - set(aosp_repos))
 # Remap unique ev projects back to real name
-ev_unique_remapped = [ r[0] for r in ev_mapping if r[1] in ev_unique ]
-ev_unique_remapped.sort()
+ev_unique_remapped = sorted([ r[0] for r in ev_mapping if r[1] in ev_unique ])
 
 # Write unique projects to new manifest for reference
 ev_manifest = "ev_unique.xml"
@@ -88,16 +88,30 @@ def_remote = "ev"
 def_revision = "jellybean"
 def_fetch_url = "https://github.com/Evervolv/"
 root = ET.Element("manifest")
-ET.SubElement(root, "remote", name="%s" % def_remote, fetch="%s" % def_fetch_url)
+ET.SubElement(root, "remote", name=def_remote, fetch=def_fetch_url)
 
 for r in ev_unique_remapped:
-    ET.SubElement(root, "project", name="%s" % r,remote="ev",revision="%s" % ev_repos_branches.get(r))
+    ET.SubElement(root, "project", name=r, remote="ev", revision=ev_repos_branches.get(r))
 
 tree = ET.ElementTree(root)
 tree.write(ev_manifest,encoding="UTF-8", xml_declaration=True)
-# ^^ Super ugly oneline xml doc, Better way ?
 # Pretty print xml
-import xml.dom.minidom as md
+xml = md.parse(ev_manifest)
+with open(ev_manifest, 'w') as f:
+    f.write(xml.toprettyxml())
+
+# create manifest for shared projects
+ev_manifest = "shared.xml"
+root = ET.Element("manifest")
+#ET.SubElement(root, "remote", name="%s" % r, remote="%s" % def_remote, fetch="%s" % def_fetch_url)
+for r in shared:
+    ET.SubElement(root,"remove-project", name=r)
+    ET.SubElement(root,"project", name=ev_mapping_rev_dict.get(r),
+            remote=def_remote, revision=ev_repos_branches.get(ev_mapping_rev_dict.get(r)))
+
+tree = ET.ElementTree(root)
+tree.write(ev_manifest, encoding="UTF-8", xml_declaration=True)
+# Pretty print xml
 xml = md.parse(ev_manifest)
 with open(ev_manifest, 'w') as f:
     f.write(xml.toprettyxml())
@@ -107,7 +121,7 @@ symlinks = False
 if symlinks:
     failed = []
     # Create symbolic links for ev shared projects
-    # to the aosp naming so mirroring will work correctly
+    # to the aosp naming so --reference will work correctly
     for s in shared:
         print "linking %s.git -> %s.git" % (ev_mapping_rev_dict.get(s),s)
         try:
