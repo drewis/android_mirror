@@ -117,6 +117,7 @@ with open(ev_manifest, 'w') as f:
     f.write(xml.toprettyxml())
 
 # For setting up combined mirror
+# Dont use keeping as reference
 symlinks = False
 if symlinks:
     failed = []
@@ -151,4 +152,27 @@ if symlinks:
         os.chdir(cur_dir)
 
     print failed
+
+# could possibly be "." if mirrored in same directory
+local_mirror_base_path = "/opt/storage/git/android/mirrors"
+# aosp clone
+aosp_mirror_path = os.path.join(local_mirror_base_path,"aosp")
+# evervolv clone
+evervolv_mirror_path = os.path.join(local_mirror_base_path,"evervolv")
+# here we are adding the local aosp clone as remotes for the evervolv clone
+# this way when aosp updates we only have to download it once
+# when we update evervolv we only need to update the aosp remoet first
+# then repo sync wont need to pull it from network
+os.chdir(evervolv_mirror_path)
+remotes = False
+if remotes:
+    cur_dir = os.getcwd()
+    for s in shared:
+        evproject = ev_mapping_rev_dict.get(s)
+        os.chdir(evproject+".git")
+        print "adding local aosp remote to" , evproject
+        subprocess.call(['git','remote','add','aosp',"%s/%s.git" %(aosp_mirror_path,s)])
+        print "fixing remote to pull to aosp/*"
+        subprocess.call(['git','config','remote.aosp.fetch','+refs/heads/*:refs/heads/aosp/*'])
+        os.chdir(cur_dir)
 print "DONE"
