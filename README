@@ -21,3 +21,19 @@ then:
 		the shared aosp projects
 
 repos can then be init'd with the --reference option
+
+to setup as dual mirror:
+	COMMON=/opt/storage/git/android/mirrors
+	cd $COMMON/aosp
+	repo init -u https://android.googlesource.com/mirror/manifest --mirror
+	cd $COMMON/evervolv
+	repo init -u https://github.com/drewis/android_mirror -b jb-mirror -m evervolv.xml
+	cd <path to build tree>
+	repo init -u $COMMON/evervolv/android.git -b jellybean
+	vim .repo/manifest.xml
+	# replace fetch urls
+	# aosp > $COMMON/aosp
+	# github > $COMMON/evervolv
+	(cd .repo/manifests && git commit -a -m 'use local clones')
+	repo sync
+

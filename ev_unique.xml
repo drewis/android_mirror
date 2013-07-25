@@ -10,7 +10,6 @@
 	<project name="android_device_htc_express" remote="ev" revision="jellybean"/>
 	<project name="android_device_htc_glacier" remote="ev" revision="jellybean"/>
 	<project name="android_device_htc_heroc" remote="ev" revision="ics"/>
-	<project name="android_device_htc_holiday" remote="ev" revision="master"/>
 	<project name="android_device_htc_inc" remote="ev" revision="jellybean"/>
 	<project name="android_device_htc_jewel" remote="ev" revision="jellybean"/>
 	<project name="android_device_htc_kingdom" remote="ev" revision="ics"/>
@@ -67,7 +66,6 @@
 	<project name="android_external_wireless-tools" remote="ev" revision="gingerbread"/>
 	<project name="android_hardware_alsa_sound" remote="ev" revision="ics"/>
 	<project name="android_hardware_atheros" remote="ev" revision="ics"/>
-	<project name="android_hardware_bt" remote="ev" revision="master"/>
 	<project name="android_hardware_cm" remote="ev" revision="ics"/>
 	<project name="android_hardware_gpsshim" remote="ev" revision="jellybean"/>
 	<project name="android_hardware_qcom_audio-caf" remote="ev" revision="jellybean"/>
@@ -100,6 +98,7 @@
 	<project name="android_packages_apps_EVParts" remote="ev" revision="gingerbread"/>
 	<project name="android_packages_apps_EVTips" remote="ev" revision="ics"/>
 	<project name="android_packages_apps_EVToolbox" remote="ev" revision="jellybean"/>
+	<project name="android_packages_apps_EVUpdater" remote="ev" revision="jellybean"/>
 	<project name="android_packages_apps_EVWallpapers" remote="ev" revision="gingerbread"/>
 	<project name="android_packages_apps_EVWidgets" remote="ev" revision="jellybean"/>
 	<project name="android_packages_apps_FileManager" remote="ev" revision="gingerbread"/>

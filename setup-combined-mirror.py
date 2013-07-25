@@ -99,6 +99,12 @@ tree.write(ev_manifest,encoding="UTF-8", xml_declaration=True)
 xml = md.parse(ev_manifest)
 with open(ev_manifest, 'w') as f:
     f.write(xml.toprettyxml())
+# write unique projects
+with open('ev_unique.txt','w') as f:
+    for r in sorted(ev_unique_remapped):
+        f.write(r+"\n")
+
+
 
 # create manifest for shared projects
 ev_manifest = "shared.xml"
@@ -115,6 +121,23 @@ tree.write(ev_manifest, encoding="UTF-8", xml_declaration=True)
 xml = md.parse(ev_manifest)
 with open(ev_manifest, 'w') as f:
     f.write(xml.toprettyxml())
+
+# write shared projects
+import json
+shared_json = {}
+for s in shared:
+    shared_json[s] = ev_mapping_rev_dict.get(s)
+with open('shared.json','w') as f:
+    json.dump(shared_json,f,indent=2)
+with open('shared.txt','w') as f:
+    for s in sorted(shared):
+        f.write(s+"\n")
+shared_remapped = []
+for s in shared:
+    shared_remapped.append(ev_mapping_rev_dict.get(s))
+with open('shared-remapped.txt','w') as f:
+    for s in sorted(shared_remapped):
+        f.write(s+"\n")
 
 # For setting up combined mirror
 # Dont use keeping as reference

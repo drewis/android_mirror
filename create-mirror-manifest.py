@@ -9,7 +9,7 @@ except ImportError:
 import json
 import xml.etree.ElementTree as ET
 
-def_remote = "ev"
+def_remote = "github"
 def_revision = "jellybean"
 def_fetch_url = "https://github.com/Evervolv/"
 url = "https://api.github.com/orgs/Evervolv/repos?per_page=100"
