@@ -75,6 +75,7 @@
 	<project name="android_external_android-mock" remote="github" revision="jellybean"/>
 	<project name="android_external_bash" remote="github" revision="jellybean"/>
 	<project name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
+	<project name="android_external_bluetooth_bluedroid" remote="github" revision="jellybean-4.3"/>
 	<project name="android_external_bouncycastle" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_busybox" remote="github" revision="jellybean"/>
 	<project name="android_external_chromium" remote="github" revision="jellybean"/>
@@ -130,6 +131,7 @@
 	<project name="android_frameworks_base" remote="github" revision="jellybean"/>
 	<project name="android_frameworks_native" remote="github" revision="jellybean"/>
 	<project name="android_frameworks_opt_telephony" remote="github" revision="jellybean"/>
+	<project name="android_frameworks_opt_vcard" remote="github" revision="jellybean-4.3"/>
 	<project name="android_frameworks_rs" remote="github" revision="jellybean"/>
 	<project name="android_hardware_alsa_sound" remote="github" revision="ics"/>
 	<project name="android_hardware_atheros" remote="github" revision="ics"/>
