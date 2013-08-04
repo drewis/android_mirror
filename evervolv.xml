@@ -109,6 +109,7 @@
 	<project name="android_external_oprofile" remote="github" revision="jellybean"/>
 	<project name="android_external_protobuf" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_rsync" remote="github" revision="jellybean"/>
+	<project name="android_external_sepolicy" remote="github" revision="jellybean-4.3"/>
 	<project name="android_external_skia" remote="github" revision="ics"/>
 	<project name="android_external_sqlite" remote="github" revision="gingerbread"/>
 	<project name="android_external_srec" remote="github" revision="jellybean"/>
