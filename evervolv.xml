@@ -137,6 +137,7 @@
 	<project name="android_frameworks_rs" remote="github" revision="jellybean"/>
 	<project name="android_hardware_alsa_sound" remote="github" revision="ics"/>
 	<project name="android_hardware_atheros" remote="github" revision="ics"/>
+	<project name="android_hardware_broadcom_libbt" remote="github" revision="jellybean-4.3"/>
 	<project name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
 	<project name="android_hardware_cm" remote="github" revision="ics"/>
 	<project name="android_hardware_gpsshim" remote="github" revision="jellybean"/>
