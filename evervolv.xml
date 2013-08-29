@@ -8,6 +8,7 @@
 	<project name="android_build" remote="github" revision="jellybean"/>
 	<project name="android_dalvik" remote="github" revision="jellybean"/>
 	<project name="android_development" remote="github" revision="jellybean"/>
+	<project name="android_device_asus_flo" remote="github" revision="jellybean-4.3"/>
 	<project name="android_device_asus_grouper" remote="github" revision="jellybean"/>
 	<project name="android_device_common" remote="github" revision="jellybean"/>
 	<project name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
@@ -168,6 +169,7 @@
 	<project name="android_hardware_ti_omap4xxx" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_hardware_ti_wlan" remote="github" revision="gingerbread"/>
 	<project name="android_hardware_ti_wpan" remote="github" revision="jellybean"/>
+	<project name="android_kernel_asus_flo" remote="github" revision="jellybean-4.3"/>
 	<project name="android_kernel_grouper" remote="github" revision="jellybean"/>
 	<project name="android_kernel_hp_tenderloin" remote="github" revision="ics"/>
 	<project name="android_kernel_htc_express" remote="github" revision="jellybean"/>
