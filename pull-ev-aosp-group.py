@@ -9,7 +9,7 @@ p = []
 for project in root:
     if project.tag == 'project':
         if project.get('groups') == 'ev-aosp':
-            p.append(project.get('path'))
+            p.append(project.get('name'))
 with open('ev-aosp-projects.txt','w') as f:
     for e in p:
         f.write(e+'\n')
