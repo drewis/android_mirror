@@ -21,6 +21,7 @@
 	<project name="android_device_htc_express" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_glacier" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_heroc" remote="github" revision="ics"/>
+	<project name="android_device_htc_holiday" remote="github" revision="master"/>
 	<project name="android_device_htc_inc" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_jewel" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_kingdom" remote="github" revision="ics"/>
@@ -59,13 +60,18 @@
 	<project name="android_device_samsung_celox-common" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_crespo" remote="github" revision="ics"/>
 	<project name="android_device_samsung_crespo4g" remote="github" revision="ics"/>
+	<project name="android_device_samsung_d2-common" remote="github" revision="jellybean-4.3"/>
+	<project name="android_device_samsung_d2tmo" remote="github" revision="jellybean-4.3"/>
 	<project name="android_device_samsung_d710" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_epic4gtouch" remote="github" revision="ics"/>
 	<project name="android_device_samsung_galaxys2-common" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_hercules" remote="github" revision="jellybean"/>
+	<project name="android_device_samsung_jf-common" remote="github" revision="jellybean-4.3"/>
+	<project name="android_device_samsung_jfltevzw" remote="github" revision="jellybean-4.3"/>
 	<project name="android_device_samsung_maguro" remote="github" revision="ics"/>
 	<project name="android_device_samsung_manta" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_msm8660-common" remote="github" revision="jellybean"/>
+	<project name="android_device_samsung_msm8960-common" remote="github" revision="jellybean-4.3"/>
 	<project name="android_device_samsung_qcom-common" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_skyrocket" remote="github" revision="ics"/>
 	<project name="android_device_samsung_toro" remote="github" revision="jellybean"/>
@@ -74,9 +80,10 @@
 	<project name="android_device_ti_panda" remote="github" revision="ics"/>
 	<project name="android_external_aac" remote="github" revision="jellybean"/>
 	<project name="android_external_android-mock" remote="github" revision="jellybean"/>
+	<project name="android_external_backports-wireless" remote="github" revision="jellybean-4.3"/>
 	<project name="android_external_bash" remote="github" revision="jellybean"/>
-	<project name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
 	<project name="android_external_bluetooth_bluedroid" remote="github" revision="jellybean-4.3"/>
+	<project name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
 	<project name="android_external_bouncycastle" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_busybox" remote="github" revision="jellybean"/>
 	<project name="android_external_chromium" remote="github" revision="jellybean"/>
@@ -91,13 +98,15 @@
 	<project name="android_external_elfutils" remote="github" revision="jellybean"/>
 	<project name="android_external_flac" remote="github" revision="gingerbread"/>
 	<project name="android_external_freetype" remote="github" revision="ics"/>
-	<project name="android_external_fsck_msdos" remote="github" revision="ics"/>
+	<project name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
 	<project name="android_external_guava" remote="github" revision="jellybean"/>
 	<project name="android_external_htop" remote="github" revision="jellybean"/>
 	<project name="android_external_icu4c" remote="github" revision="jellybean"/>
 	<project name="android_external_javasqlite" remote="github" revision="jellybean"/>
 	<project name="android_external_jhead" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_jpeg" remote="github" revision="gingerbread"/>
+	<project name="android_external_koush_Superuser" remote="github" revision="jellybean-4.3"/>
+	<project name="android_external_koush_Widgets" remote="github" revision="jellybean-4.3"/>
 	<project name="android_external_libncurses" remote="github" revision="jellybean"/>
 	<project name="android_external_libpng" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_libselinux" remote="github" revision="jellybean-4.3"/>
@@ -140,6 +149,7 @@
 	<project name="android_hardware_atheros" remote="github" revision="ics"/>
 	<project name="android_hardware_broadcom_libbt" remote="github" revision="jellybean-4.3"/>
 	<project name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
+	<project name="android_hardware_bt" remote="github" revision="master"/>
 	<project name="android_hardware_cm" remote="github" revision="ics"/>
 	<project name="android_hardware_gpsshim" remote="github" revision="jellybean"/>
 	<project name="android_hardware_libhardware" remote="github" revision="jellybean"/>
@@ -185,9 +195,12 @@
 	<project name="android_kernel_htc_shooter" remote="github" revision="ics"/>
 	<project name="android_kernel_lge_mako" remote="github" revision="android-msm-mako-3.4-jb-mr1"/>
 	<project name="android_kernel_lge_pecan" remote="github" revision="jellybean"/>
+	<project name="android_kernel_samsung_d2" remote="github" revision="jellybean-4.3"/>
+	<project name="android_kernel_samsung_jf" remote="github" revision="jellybean-4.3"/>
 	<project name="android_kernel_samsung_manta" remote="github" revision="jellybean"/>
 	<project name="android_kernel_samsung_msm8660" remote="github" revision="jellybean"/>
 	<project name="android_kernel_samsung_smdk4210" remote="github" revision="jellybean"/>
+	<project name="android_kernel_samsung_smdk4412" remote="github" revision="jellybean-4.3"/>
 	<project name="android_kernel_samsung_tuna" remote="github" revision="jellybean"/>
 	<project name="android_kernel_thunderc" remote="github" revision="LS670"/>
 	<project name="android_libcore" remote="github" revision="jellybean"/>
@@ -236,6 +249,7 @@
 	<project name="android_prebuilt" remote="github" revision="jellybean"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
+	<project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.8" remote="github" revision="jellybean-4.3"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_linaro-4.7" remote="github" revision="ics"/>
 	<project name="android_prebuilts_misc" remote="github" revision="jellybean"/>
 	<project name="android_sdk" remote="github" revision="jellybean"/>
