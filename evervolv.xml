@@ -21,7 +21,6 @@
 	<project name="android_device_htc_express" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_glacier" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_heroc" remote="github" revision="ics"/>
-	<project name="android_device_htc_holiday" remote="github" revision="master"/>
 	<project name="android_device_htc_inc" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_jewel" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_kingdom" remote="github" revision="ics"/>
