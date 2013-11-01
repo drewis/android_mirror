@@ -18,21 +18,22 @@ pas = "" # XXX fill in
 user_pass=(usr,pas)
 
 while True:
+    print url
     req = requests.get(url, auth=user_pass)
     if req.status_code == requests.codes.ok:
-        content = json.loads(req.text)
-        for c in content:
-            req = requests.get("https://api.github.com/repos/%s/branches" % c.get("full_name"),
+        projects = json.loads(req.text)
+        for p in projects:
+            req2 = requests.get("https://api.github.com/repos/%s/branches" % p.get("full_name"),
                     auth=user_pass)
-            if req.status_code == requests.codes.ok:
-                branches = json.loads(req.text)
+            if req2.status_code == requests.codes.ok:
+                branches = json.loads(req2.text)
                 for b in branches:
                     if int_branch == b.get("name"):
-                        repos.append(c.get("name"))
-                        print c.get("name")
+                        repos.append(p.get("name"))
+                        print "Added ", p.get("name")
                         break
             else:
-                print "Http err: skipping ", c.get('name')
+                print "Http err: skipping ", p.get('name')
     else:
         print "Http err: skipping ", url
     try:
@@ -40,7 +41,7 @@ while True:
     except KeyError:
         break
 
-repos.sort(key=lambda n: n[0])
+repos.sort()
 
 with open(output_file, 'w') as f:
     for r in repos:
