@@ -3,31 +3,22 @@
   <remote fetch=".." name="aosp" />
   <default remote="aosp" revision="refs/tags/android-4.4_r1" sync-j="4" />
 
-  <project groups="pdk" name="platform/build" path="build" remote="aosp" revision="refs/tags/android-4.4_r1">
-    <copyfile dest="Makefile" src="core/root.mk" />
-  </project>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/art" path="art" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/bionic" path="bionic" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="cts" name="platform/cts" path="cts" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/dalvik" path="dalvik" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/build" path="developers/build" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/demos" path="developers/demos" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/docs" path="developers/docs" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/development" path="development" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,flo" name="device/asus/deb" path="device/asus/deb" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,flo" name="device/asus/flo" path="device/asus/flo" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,flo" name="device/asus/flo-kernel" path="device/asus/flo-kernel" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,grouper" name="device/asus/grouper" path="device/asus/grouper" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,grouper" name="device/asus/tilapia" path="device/asus/tilapia" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="device/common" path="device/common" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="device/generic/goldfish" path="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/mips" path="device/generic/mips" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" path="device/generic/mini-emulator-armv7-a-neon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="device/generic/mini-emulator-mips" path="device/generic/mini-emulator-mips" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -42,9 +33,7 @@
   <project groups="pdk" name="device/sample" path="device/sample" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="device,manta" name="device/samsung/manta" path="device/samsung/manta" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/docs/source.android.com" path="docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/aac" path="external/aac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/android-clat" path="external/android-clat" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/android-mock" path="external/android-mock" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ant-glob" path="external/ant-glob" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/antlr" path="external/antlr" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/apache-harmony" path="external/apache-harmony" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -54,13 +43,11 @@
   <project name="platform/external/arduino" path="external/arduino" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/bison" path="external/bison" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/blktrace" path="external/blktrace" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/bouncycastle" path="external/bouncycastle" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/bzip2" path="external/bzip2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ceres-solver" path="external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/checkpolicy" path="external/checkpolicy" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/chromium" path="external/chromium" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/chromium_org" path="external/chromium_org" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -100,7 +87,6 @@
   <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/eigen" path="external/eigen" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/elfutils" path="external/elfutils" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/embunit" path="external/embunit" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/emma" path="external/emma" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/esd" path="external/esd" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -109,7 +95,6 @@
   <project name="platform/external/fdlibm" path="external/fdlibm" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/flac" path="external/flac" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/freetype" path="external/freetype" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/ganymed-ssh2" path="external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/gcc-demangle" path="external/gcc-demangle" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/genext2fs" path="external/genext2fs" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -128,7 +113,6 @@
   <project name="platform/external/iptables" path="external/iptables" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/iputils" path="external/iputils" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/jack" path="external/jack" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/javasqlite" path="external/javasqlite" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/javassist" path="external/javassist" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/jdiff" path="external/jdiff" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/jhead" path="external/jhead" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -187,7 +171,6 @@
   <project name="platform/external/open-vcdiff" path="external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/opencv" path="external/opencv" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/openfst" path="external/openfst" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/openssh" path="external/openssh" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/openssl" path="external/openssl" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/oprofile" path="external/oprofile" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/pixman" path="external/pixman" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -210,39 +193,29 @@
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/speex" path="external/speex" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/srec" path="external/srec" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/srtp" path="external/srtp" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/stlport" path="external/stlport" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/strace" path="external/strace" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/stressapptest" path="external/stressapptest" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/svox" path="external/svox" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/tagsoup" path="external/tagsoup" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/tcpdump" path="external/tcpdump" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/timezonepicker-support" path="external/timezonepicker-support" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/tremolo" path="external/tremolo" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/external/v8" path="external/v8" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/webp" path="external/webp" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/xmlwriter" path="external/xmlwriter" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/yaffs2" path="external/yaffs2" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/external/zlib" path="external/zlib" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/external/zxing" path="external/zxing" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/frameworks/base" path="frameworks/base" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/ex" path="frameworks/ex" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/mff" path="frameworks/mff" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/ml" path="frameworks/ml" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/opt/carddav" path="frameworks/opt/carddav" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -254,8 +227,6 @@
   <project name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/support" path="frameworks/support" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/testing" path="frameworks/testing" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -264,86 +235,52 @@
   <project name="platform/frameworks/webview" path="frameworks/webview" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/hardware/akm" path="hardware/akm" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="invensense" name="platform/hardware/invensense" path="hardware/invensense" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom_msm8960" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="exynos5" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="omap4" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/hardware/ti/wlan" path="hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/hardware/ti/wpan" path="hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/libcore" path="libcore" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk-java" name="platform/libnativehelper" path="libnativehelper" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/ndk" path="ndk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Email" path="packages/apps/Email" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Music" path="packages/apps/Music" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Phone" path="packages/apps/Phone" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/experimental" path="packages/experimental" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/inputmethods/PinyinIME" path="packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -397,7 +334,6 @@
   <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="darwin" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="linux" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="aosp" revision="refs/tags/android-4.4_r1" />
@@ -405,13 +341,8 @@
   <project name="platform/prebuilts/runtime" path="prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project name="platform/sdk" path="sdk" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/system/extras" path="system/extras" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/system/media" path="system/media" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="pdk" name="platform/system/netd" path="system/netd" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/system/security" path="system/security" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/adt/eclipse" path="tools/adt/eclipse" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/adt/idea" path="tools/adt/idea" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project groups="notdefault,tools" name="platform/tools/base" path="tools/base" remote="aosp" revision="refs/tags/android-4.4_r1" />
