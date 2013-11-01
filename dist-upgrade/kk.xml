@@ -33,7 +33,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" groups="ev-extra" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" groups="ev-extra" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" groups="ev-extra" />
-  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" groups="ev-extra" />
 
   <!--Evervolv (Github) Hosted Projects-->
   <project path="build" name="android_build" groups="ev-aosp" >
