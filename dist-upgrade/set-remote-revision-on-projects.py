@@ -13,4 +13,4 @@ for project in root:
         project.attrib['remote'] = rem
         project.attrib['revision'] = rev
 
-tree.write('kk2.xml')
+tree.write('kk.xml')
