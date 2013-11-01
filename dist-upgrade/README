@@ -23,6 +23,10 @@ non aosp projects we are still working on.
 Manifest is now updated
 
 11. push new aosp branch for projects in ev-aosp-projects.txt to github
+	./push-ev-aosp-projects-to-gerrit.py
 12. fork projects in repos-with-current-branch.txt with new branch
+	for ii in $(cat /home/drewis/pro
+jects-need-new-branch.txt ); do pushd ${ii}.git && git push ssh://drewis@review.evervolv.com:8082/$(
+git config --get remote.github.projectname).git jellybean-4.3:refs/heads/kitkat && popd; done
 
 That should be it
