@@ -1,0 +1,28 @@
+On new releases (Cause i already forgot once)
+
+1. regen evervolv mirror, resync evervolv and aosp mirror
+2. ./pull-ev-aosp-grouped-projects-from-manifest.py
+	against old manifest to get projects we need to push the new release branch to
+3. ./find-projects-with-specific-branch.py
+	for old branch to get projects that we have not abandoned
+4. ./find-projects-needing-new-branch.py
+	to get projects not in aosp that will need the new branch
+
+So new we have a list of aosp projects we have forked and a list of
+non aosp projects we are still working on.
+
+5. remove any projects for the lists we don't need anymore
+6. grab the new manifest from aosp
+7. ./set-remote-and-revision-on-aosp-manifest.py
+	on new manifest to prep for evervolv
+8. ./remove-github-hosted-projects-from-aosp-manifest.py
+	more prep for evervolv
+9. review changes to manifest against list ev-aosp-projects.txt
+10. copy github stuff from old manifest to new manifest
+
+Manifest is now updated
+
+11. push new aosp branch for projects in ev-aosp-projects.txt to github
+12. fork projects in repos-with-current-branch.txt with new branch
+
+That should be it
