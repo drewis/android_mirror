@@ -2,9 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="kitkat-dev"
+           fetch=".." />
+  <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
 
