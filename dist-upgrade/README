@@ -29,4 +29,7 @@ Manifest is now updated
 jects-need-new-branch.txt ); do pushd ${ii}.git && git push ssh://drewis@review.evervolv.com:8082/$(
 git config --get remote.github.projectname).git jellybean-4.3:refs/heads/kitkat && popd; done
 
+13. ./find-projects-with-specific-branch-and-set-as-default.py
+	for new branch
+
 That should be it
