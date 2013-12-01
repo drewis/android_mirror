@@ -49,7 +49,10 @@
 	<project name="android_device_htc_supersonic" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_vision" remote="github" revision="gingerbread"/>
 	<project name="android_device_htc_vivow" remote="github" revision="kitkat"/>
+	<project name="android_device_lge_d800" remote="github" revision="jellybean"/>
+	<project name="android_device_lge_g2-common" remote="github" revision="jellybean"/>
 	<project name="android_device_lge_geehrc" remote="github" revision="jellybean"/>
+	<project name="android_device_lge_hammerhead" remote="github" revision="kitkat"/>
 	<project name="android_device_lge_mako" remote="github" revision="kitkat"/>
 	<project name="android_device_lge_mako-kernel" remote="github" revision="jellybean"/>
 	<project name="android_device_lge_p350" remote="github" revision="jellybean"/>
@@ -86,6 +89,7 @@
 	<project name="android_external_bouncycastle" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_external_busybox" remote="github" revision="kitkat"/>
 	<project name="android_external_chromium" remote="github" revision="kitkat"/>
+	<project name="android_external_chromium_org" remote="github" revision="kitkat"/>
 	<project name="android_external_clearsilver" remote="github" revision="gingerbread"/>
 	<project name="android_external_compat-wireless-3.3-rc1-2" remote="github" revision="ics"/>
 	<project name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="kitkat"/>
@@ -177,7 +181,7 @@
 	<project name="android_hardware_ti_omap4xxx" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_hardware_ti_wlan" remote="github" revision="kitkat"/>
 	<project name="android_hardware_ti_wpan" remote="github" revision="kitkat"/>
-	<project name="android_kernel_asus_flo" remote="github" revision="jellybean-4.3"/>
+	<project name="android_kernel_asus_flo" remote="github" revision="kitkat"/>
 	<project name="android_kernel_grouper" remote="github" revision="kitkat"/>
 	<project name="android_kernel_hp_tenderloin" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_express" remote="github" revision="jellybean"/>
@@ -191,7 +195,9 @@
 	<project name="android_kernel_htc_pyramid" remote="github" revision="jellybean"/>
 	<project name="android_kernel_htc_qsd8k" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_shooter" remote="github" revision="ics"/>
-	<project name="android_kernel_lge_mako" remote="github" revision="android-msm-mako-3.4-jb-mr1"/>
+	<project name="android_kernel_lge_hammerhead" remote="github" revision="kitkat"/>
+	<project name="android_kernel_lge_mako" remote="github" revision="kitkat"/>
+	<project name="android_kernel_lge_msm8974" remote="github" revision="kitkat"/>
 	<project name="android_kernel_lge_pecan" remote="github" revision="jellybean"/>
 	<project name="android_kernel_samsung_d2" remote="github" revision="kitkat"/>
 	<project name="android_kernel_samsung_jf" remote="github" revision="kitkat"/>
