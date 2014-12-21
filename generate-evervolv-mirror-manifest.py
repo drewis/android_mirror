@@ -24,7 +24,7 @@ while True:
             break
         retrys += 1
     content = json.loads(req.text)
-    repos.extend([ (c.get('name'),c.get('master_branch')) for c in content ])
+    repos.extend([ (c.get('name'),c.get('default_branch')) for c in content ])
     try:
         url = req.links['next']['url']
     except KeyError:
