@@ -1,29 +1,38 @@
 <?xml version="1.0" ?>
 <manifest>
 	<remote fetch="https://github.com/Evervolv/" name="github"/>
-	<project name="android" remote="github" revision="kitkat"/>
-	<project name="android_art" remote="github" revision="lollipop"/>
-	<project name="android_bionic" remote="github" revision="kitkat"/>
-	<project name="android_bootable_recovery" remote="github" revision="kitkat"/>
+	<project name="android" remote="github" revision="ng-7.0"/>
+	<project name="android_art" remote="github" revision="ng-7.0"/>
+	<project name="android_bionic" remote="github" revision="ng-7.0"/>
+	<project name="android_bootable_amazon_soho_u-boot" remote="github" revision="ng-7.1"/>
+	<project name="android_bootable_recovery" remote="github" revision="ng-7.0"/>
 	<project name="android_bootable_recovery_really_old" remote="github" revision="ics"/>
-	<project name="android_build" remote="github" revision="kitkat"/>
+	<project name="android_build" remote="github" revision="ng-7.0"/>
+	<project name="android_build_kati" remote="github" revision="ng-7.0"/>
+	<project name="android_build_soong" remote="github" revision="ng-7.0"/>
 	<project name="android_dalvik" remote="github" revision="kitkat"/>
-	<project name="android_development" remote="github" revision="kitkat"/>
+	<project name="android_developers_themes_resources" remote="github" revision="ng-7.1"/>
+	<project name="android_development" remote="github" revision="mm-6.0"/>
+	<project name="android_device_amazon_bowser-common" remote="github" revision="ng-7.1"/>
+	<project name="android_device_amazon_omap4-common" remote="github" revision="ng-7.1"/>
+	<project name="android_device_amazon_soho" remote="github" revision="ng-7.1"/>
 	<project name="android_device_asus_deb" remote="github" revision="kitkat"/>
-	<project name="android_device_asus_flo" remote="github" revision="kitkat"/>
+	<project name="android_device_asus_flo" remote="github" revision="ng-7.1"/>
 	<project name="android_device_asus_grouper" remote="github" revision="kitkat"/>
+	<project name="android_device_bn_common" remote="github" revision="ng-7.1"/>
+	<project name="android_device_bn_ovation" remote="github" revision="ng-7.1"/>
 	<project name="android_device_common" remote="github" revision="kitkat"/>
 	<project name="android_device_generic_goldfish" remote="github" revision="kitkat"/>
-	<project name="android_device_hp_tenderloin" remote="github" revision="kitkat"/>
-	<project name="android_device_hp_tenderloin-common" remote="github" revision="kitkat"/>
-	<project name="android_device_hp_tenderloin4g" remote="github" revision="kitkat"/>
+	<project name="android_device_hp_tenderloin" remote="github" revision="ng-7.0"/>
+	<project name="android_device_hp_tenderloin-common" remote="github" revision="ng-7.0"/>
+	<project name="android_device_hp_tenderloin4g" remote="github" revision="ng-7.0"/>
 	<project name="android_device_hp_tenderloin_old" remote="github" revision="ics"/>
 	<project name="android_device_htc_bravo" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_common" remote="github" revision="ics"/>
 	<project name="android_device_htc_desirec" remote="github" revision="jellybean"/>
 	<project name="android_device_htc_evita" remote="github" revision="ics"/>
 	<project name="android_device_htc_express" remote="github" revision="jellybean"/>
-	<project name="android_device_htc_glacier" remote="github" revision="kitkat"/>
+	<project name="android_device_htc_glacier" remote="github" revision="mm-6.0"/>
 	<project name="android_device_htc_heroc" remote="github" revision="ics"/>
 	<project name="android_device_htc_inc" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_jewel" remote="github" revision="kitkat"/>
@@ -36,7 +45,7 @@
 	<project name="android_device_htc_m7wls" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_m8" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_mecha" remote="github" revision="kitkat"/>
-	<project name="android_device_htc_msm7x30-common" remote="github" revision="kitkat"/>
+	<project name="android_device_htc_msm7x30-common" remote="github" revision="mm-6.0"/>
 	<project name="android_device_htc_msm8660-common" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_msm8960-common" remote="github" revision="kitkat"/>
 	<project name="android_device_htc_passion" remote="github" revision="kitkat"/>
@@ -58,20 +67,23 @@
 	<project name="android_device_lge_d801" remote="github" revision="kitkat"/>
 	<project name="android_device_lge_g2-common" remote="github" revision="jellybean"/>
 	<project name="android_device_lge_geehrc" remote="github" revision="jellybean"/>
-	<project name="android_device_lge_hammerhead" remote="github" revision="kitkat"/>
+	<project name="android_device_lge_hammerhead" remote="github" revision="ng-7.0"/>
 	<project name="android_device_lge_mako" remote="github" revision="kitkat"/>
 	<project name="android_device_lge_mako-kernel" remote="github" revision="jellybean"/>
 	<project name="android_device_lge_p350" remote="github" revision="jellybean"/>
 	<project name="android_device_lge_thundercls670" remote="github" revision="ics"/>
 	<project name="android_device_lge_v500" remote="github" revision="kitkat"/>
-	<project name="android_device_moto_shamu" remote="github" revision="lollipop-5.1"/>
+	<project name="android_device_moto_shamu" remote="github" revision="ng-7.0"/>
 	<project name="android_device_nvidia_harmony" remote="github" revision="gingerbread"/>
+	<project name="android_device_oneplus_oneplus3" remote="github" revision="ng-7.1"/>
+	<project name="android_device_oppo_common" remote="github" revision="ng-7.0"/>
 	<project name="android_device_oppo_find7a" remote="github" revision="kitkat"/>
 	<project name="android_device_oppo_n1" remote="github" revision="kitkat"/>
-	<project name="android_device_qcom_common" remote="github" revision="kitkat"/>
-	<project name="android_device_qcom_sepolicy" remote="github" revision="lollipop"/>
+	<project name="android_device_qcom_common" remote="github" revision="ng-7.0"/>
+	<project name="android_device_qcom_sepolicy" remote="github" revision="ng-7.0"/>
 	<project name="android_device_samsung_c1-common" remote="github" revision="ics"/>
-	<project name="android_device_samsung_celox-common" remote="github" revision="kitkat"/>
+	<project name="android_device_samsung_celox" remote="github" revision="ng-7.0"/>
+	<project name="android_device_samsung_celox-common" remote="github" revision="mm-6.0"/>
 	<project name="android_device_samsung_crespo" remote="github" revision="ics"/>
 	<project name="android_device_samsung_crespo4g" remote="github" revision="ics"/>
 	<project name="android_device_samsung_d2-common" remote="github" revision="kitkat"/>
@@ -79,15 +91,20 @@
 	<project name="android_device_samsung_d710" remote="github" revision="jellybean"/>
 	<project name="android_device_samsung_epic4gtouch" remote="github" revision="ics"/>
 	<project name="android_device_samsung_galaxys2-common" remote="github" revision="jellybean"/>
-	<project name="android_device_samsung_hercules" remote="github" revision="kitkat"/>
+	<project name="android_device_samsung_gt5-common" remote="github" revision="ng-7.0"/>
+	<project name="android_device_samsung_gt510wifixx" remote="github" revision="mm-6.0"/>
+	<project name="android_device_samsung_gt58-common" remote="github" revision="mm-6.0"/>
+	<project name="android_device_samsung_gt58wifixx" remote="github" revision="ng-7.0"/>
+	<project name="android_device_samsung_hercules" remote="github" revision="mm-6.0"/>
 	<project name="android_device_samsung_jf-common" remote="github" revision="kitkat"/>
 	<project name="android_device_samsung_jflte" remote="github" revision="kitkat"/>
 	<project name="android_device_samsung_jfltevzw" remote="github" revision="kitkat"/>
 	<project name="android_device_samsung_maguro" remote="github" revision="kitkat"/>
 	<project name="android_device_samsung_manta" remote="github" revision="jellybean"/>
-	<project name="android_device_samsung_msm8660-common" remote="github" revision="kitkat"/>
+	<project name="android_device_samsung_msm8660-common" remote="github" revision="ng-7.0"/>
+	<project name="android_device_samsung_msm8916-common" remote="github" revision="ng-7.0"/>
 	<project name="android_device_samsung_msm8960-common" remote="github" revision="kitkat"/>
-	<project name="android_device_samsung_qcom-common" remote="github" revision="kitkat"/>
+	<project name="android_device_samsung_qcom-common" remote="github" revision="ng-7.0"/>
 	<project name="android_device_samsung_skyrocket" remote="github" revision="ics"/>
 	<project name="android_device_samsung_toro" remote="github" revision="kitkat"/>
 	<project name="android_device_samsung_torospr" remote="github" revision="ics"/>
@@ -95,30 +112,40 @@
 	<project name="android_device_ti_panda" remote="github" revision="ics"/>
 	<project name="android_external_aac" remote="github" revision="kitkat"/>
 	<project name="android_external_android-mock" remote="github" revision="kitkat"/>
-	<project name="android_external_backports-wireless" remote="github" revision="kitkat"/>
-	<project name="android_external_bash" remote="github" revision="kitkat"/>
+	<project name="android_external_android-visualizer" remote="github" revision="ng-7.0"/>
+	<project name="android_external_ant-glob" remote="github" revision="mm-6.0"/>
+	<project name="android_external_ant-wireless_ant_native" remote="github" revision="mm-6.0"/>
+	<project name="android_external_ant-wireless_ant_service" remote="github" revision="mm-6.0"/>
+	<project name="android_external_ant-wireless_antradio-library" remote="github" revision="mm-6.0"/>
+	<project name="android_external_backports-wireless" remote="github" revision="ng-7.0"/>
+	<project name="android_external_bash" remote="github" revision="ng-7.0"/>
 	<project name="android_external_bluetooth_bluedroid" remote="github" revision="kitkat"/>
 	<project name="android_external_bluetooth_bluez" remote="github" revision="ics"/>
+	<project name="android_external_boringssl" remote="github" revision="ng-7.0"/>
 	<project name="android_external_bouncycastle" remote="github" revision="jellybean-ubuntuphone"/>
-	<project name="android_external_busybox" remote="github" revision="kitkat"/>
+	<project name="android_external_busybox" remote="github" revision="ng-7.0"/>
 	<project name="android_external_chromium" remote="github" revision="kitkat"/>
+	<project name="android_external_chromium-webview" remote="github" revision="ng-7.1"/>
 	<project name="android_external_chromium_org" remote="github" revision="kitkat"/>
 	<project name="android_external_clang" remote="github" revision="kitkat"/>
 	<project name="android_external_clearsilver" remote="github" revision="gingerbread"/>
 	<project name="android_external_compat-wireless-3.3-rc1-2" remote="github" revision="ics"/>
 	<project name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="kitkat"/>
 	<project name="android_external_compcache" remote="github" revision="gingerbread"/>
-	<project name="android_external_curl" remote="github" revision="kitkat"/>
+	<project name="android_external_curl" remote="github" revision="mm-6.0"/>
 	<project name="android_external_dnsmasq" remote="github" revision="gingerbread"/>
 	<project name="android_external_dropbear" remote="github" revision="kitkat"/>
-	<project name="android_external_e2fsprogs" remote="github" revision="ics"/>
+	<project name="android_external_e2fsprogs" remote="github" revision="ng-7.0"/>
 	<project name="android_external_elfutils" remote="github" revision="kitkat"/>
-	<project name="android_external_ffmpeg" remote="github" revision="kitkat"/>
+	<project name="android_external_exfat" remote="github" revision="ng-7.0"/>
+	<project name="android_external_f2fs-tools" remote="github" revision="ng-7.0"/>
+	<project name="android_external_ffmpeg" remote="github" revision="ng-7.0"/>
 	<project name="android_external_flac" remote="github" revision="gingerbread"/>
 	<project name="android_external_freetype" remote="github" revision="ics"/>
 	<project name="android_external_fsck_msdos" remote="github" revision="kitkat"/>
+	<project name="android_external_fuse" remote="github" revision="ng-7.0"/>
 	<project name="android_external_guava" remote="github" revision="jellybean"/>
-	<project name="android_external_htop" remote="github" revision="kitkat"/>
+	<project name="android_external_htop" remote="github" revision="ng-7.0"/>
 	<project name="android_external_icu4c" remote="github" revision="kitkat"/>
 	<project name="android_external_jarjar" remote="github" revision="lollipop"/>
 	<project name="android_external_javasqlite" remote="github" revision="kitkat"/>
@@ -126,29 +153,38 @@
 	<project name="android_external_jpeg" remote="github" revision="gingerbread"/>
 	<project name="android_external_koush_Superuser" remote="github" revision="jellybean-4.3"/>
 	<project name="android_external_koush_Widgets" remote="github" revision="jellybean-4.3"/>
-	<project name="android_external_libncurses" remote="github" revision="kitkat"/>
+	<project name="android_external_libncurses" remote="github" revision="ng-7.0"/>
+	<project name="android_external_libnetfilter_conntrack" remote="github" revision="ng-7.1"/>
 	<project name="android_external_libnfc-nci" remote="github" revision="kitkat"/>
+	<project name="android_external_libnfnetlink" remote="github" revision="ng-7.1"/>
 	<project name="android_external_libpng" remote="github" revision="jellybean-ubuntuphone"/>
-	<project name="android_external_libselinux" remote="github" revision="jellybean-4.3"/>
+	<project name="android_external_libselinux" remote="github" revision="ng-7.0"/>
 	<project name="android_external_lsof" remote="github" revision="gingerbread"/>
+	<project name="android_external_lz4" remote="github" revision="mm-6.0"/>
 	<project name="android_external_lzo" remote="github" revision="gingerbread"/>
+	<project name="android_external_mm-dash" remote="github" revision="ng-7.0"/>
 	<project name="android_external_mtpd" remote="github" revision="gingerbread"/>
-	<project name="android_external_nano" remote="github" revision="kitkat"/>
-	<project name="android_external_openssh" remote="github" revision="kitkat"/>
+	<project name="android_external_nano" remote="github" revision="ng-7.0"/>
+	<project name="android_external_ntfs-3g" remote="github" revision="ng-7.1"/>
+	<project name="android_external_openssh" remote="github" revision="ng-7.0"/>
 	<project name="android_external_openssl" remote="github" revision="jellybean"/>
 	<project name="android_external_openvpn" remote="github" revision="gingerbread"/>
 	<project name="android_external_oprofile" remote="github" revision="jellybean"/>
+	<project name="android_external_pigz" remote="github" revision="ng-7.0"/>
 	<project name="android_external_protobuf" remote="github" revision="jellybean-ubuntuphone"/>
-	<project name="android_external_rsync" remote="github" revision="kitkat"/>
-	<project name="android_external_sepolicy" remote="github" revision="jellybean-4.3"/>
+	<project name="android_external_rsync" remote="github" revision="ng-7.0"/>
+	<project name="android_external_sepolicy" remote="github" revision="mm-6.0"/>
 	<project name="android_external_skia" remote="github" revision="kitkat"/>
+	<project name="android_external_sony_boringssl-compat" remote="github" revision="mm-6.0"/>
 	<project name="android_external_sqlite" remote="github" revision="gingerbread"/>
 	<project name="android_external_srec" remote="github" revision="kitkat"/>
-	<project name="android_external_stagefright-plugins" remote="github" revision="kitkat"/>
-	<project name="android_external_stlport" remote="github" revision="kitkat"/>
+	<project name="android_external_stagefright-plugins" remote="github" revision="ng-7.0"/>
+	<project name="android_external_stlport" remote="github" revision="ng-7.0"/>
 	<project name="android_external_strace" remote="github" revision="gingerbread"/>
-	<project name="android_external_su" remote="github" revision="kitkat"/>
+	<project name="android_external_su" remote="github" revision="ng-7.0"/>
 	<project name="android_external_tinyalsa" remote="github" revision="kitkat"/>
+	<project name="android_external_tinycompress" remote="github" revision="ng-7.0"/>
+	<project name="android_external_toybox" remote="github" revision="ng-7.0"/>
 	<project name="android_external_v8" remote="github" revision="kitkat"/>
 	<project name="android_external_vim" remote="github" revision="kitkat"/>
 	<project name="android_external_webkit" remote="github" revision="jellybean"/>
@@ -157,146 +193,174 @@
 	<project name="android_external_wireless-tools" remote="github" revision="gingerbread"/>
 	<project name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
 	<project name="android_external_wpa_supplicant_6" remote="github" revision="ics"/>
-	<project name="android_external_wpa_supplicant_8" remote="github" revision="kitkat"/>
+	<project name="android_external_wpa_supplicant_8" remote="github" revision="ng-7.0"/>
 	<project name="android_external_yaffs2" remote="github" revision="kitkat"/>
 	<project name="android_external_zlib" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_av" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_base" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_native" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_opt_bluetooth" remote="github" revision="lollipop"/>
-	<project name="android_frameworks_opt_net_ims" remote="github" revision="lollipop"/>
-	<project name="android_frameworks_opt_net_wifi" remote="github" revision="lollipop"/>
-	<project name="android_frameworks_opt_telephony" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_opt_vcard" remote="github" revision="kitkat"/>
-	<project name="android_frameworks_rs" remote="github" revision="jellybean"/>
+	<project name="android_frameworks_av" remote="github" revision="ng-7.0"/>
+	<project name="android_frameworks_base" remote="github" revision="ng-7.0"/>
+	<project name="android_frameworks_native" remote="github" revision="ng-7.0"/>
+	<project name="android_frameworks_opt_bluetooth" remote="github" revision="ng-7.0"/>
+	<project name="android_frameworks_opt_chips" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_opt_net_ethernet" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_opt_net_ims" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_opt_net_voip" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_opt_net_wifi" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_opt_telephony" remote="github" revision="ng-7.0"/>
+	<project name="android_frameworks_opt_vcard" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_rs" remote="github" revision="mm-6.0"/>
+	<project name="android_frameworks_support" remote="github" revision="mm-6.0"/>
 	<project name="android_hardware_alsa_sound" remote="github" revision="ics"/>
-	<project name="android_hardware_atheros" remote="github" revision="kitkat"/>
+	<project name="android_hardware_atheros" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_broadcom_libbt" remote="github" revision="kitkat"/>
 	<project name="android_hardware_broadcom_wlan" remote="github" revision="kitkat"/>
 	<project name="android_hardware_cm" remote="github" revision="ics"/>
 	<project name="android_hardware_gpsshim" remote="github" revision="kitkat"/>
-	<project name="android_hardware_invensense" remote="github" revision="lollipop"/>
-	<project name="android_hardware_libhardware" remote="github" revision="kitkat"/>
-	<project name="android_hardware_libhardware_legacy" remote="github" revision="kitkat"/>
+	<project name="android_hardware_invensense" remote="github" revision="mm-6.0"/>
+	<project name="android_hardware_libhardware" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_libhardware_legacy" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_msm7k" remote="github" revision="jellybean"/>
-	<project name="android_hardware_qcom_audio" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_audio" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_qcom_audio-caf" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_audio-caf-bfam" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_audio-legacy" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_bt" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_bt" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_qcom_camera" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_display" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_display" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_qcom_display-caf" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_display-caf-bfam" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_display-caf-new" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_display-legacy" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_display-legacy" remote="github" revision="mm-6.0"/>
 	<project name="android_hardware_qcom_fm" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
-	<project name="android_hardware_qcom_gps-legacy" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_keymaster" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_media" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_gps" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_qcom_gps-legacy" remote="github" revision="mm-6.0"/>
+	<project name="android_hardware_qcom_keymaster" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_qcom_media" remote="github" revision="ng-7.0"/>
 	<project name="android_hardware_qcom_media-caf" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_media-caf-bfam" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_media-caf-new" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_media-legacy" remote="github" revision="kitkat"/>
+	<project name="android_hardware_qcom_media-legacy" remote="github" revision="mm-6.0"/>
 	<project name="android_hardware_qcom_msm8960" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_power" remote="github" revision="kitkat"/>
 	<project name="android_hardware_qcom_sensors" remote="github" revision="kitkat"/>
-	<project name="android_hardware_qcom_wlan" remote="github" revision="kitkat"/>
-	<project name="android_hardware_ril" remote="github" revision="kitkat"/>
-	<project name="android_hardware_samsung" remote="github" revision="kitkat"/>
-	<project name="android_hardware_ti_omap3" remote="github" revision="gingerbread"/>
+	<project name="android_hardware_qcom_wlan" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_ril" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_samsung" remote="github" revision="ng-7.0"/>
+	<project name="android_hardware_ti_omap3" remote="github" revision="mm-6.0"/>
+	<project name="android_hardware_ti_omap4" remote="github" revision="mm-6.0"/>
 	<project name="android_hardware_ti_omap4xxx" remote="github" revision="jellybean-ubuntuphone"/>
-	<project name="android_hardware_ti_wlan" remote="github" revision="kitkat"/>
-	<project name="android_hardware_ti_wpan" remote="github" revision="kitkat"/>
+	<project name="android_hardware_ti_wlan" remote="github" revision="mm-6.0"/>
+	<project name="android_hardware_ti_wpan" remote="github" revision="mm-6.0"/>
 	<project name="android_kernel_asus_flo" remote="github" revision="kitkat"/>
+	<project name="android_kernel_bn_omap" remote="github" revision="ng-7.1"/>
 	<project name="android_kernel_grouper" remote="github" revision="kitkat"/>
 	<project name="android_kernel_hp_tenderloin" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_express" remote="github" revision="jellybean"/>
 	<project name="android_kernel_htc_leo" remote="github" revision="jellybean"/>
 	<project name="android_kernel_htc_m7" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_msm7x30" remote="github" revision="kitkat"/>
-	<project name="android_kernel_htc_msm7x30-3.0" remote="github" revision="kitkat"/>
+	<project name="android_kernel_htc_msm7x30-3.0" remote="github" revision="mm-6.0"/>
 	<project name="android_kernel_htc_msm8660" remote="github" revision="kitkat"/>
-	<project name="android_kernel_htc_msm8960" remote="github" revision="kitkat"/>
+	<project name="android_kernel_htc_msm8960" remote="github" revision="ng-7.1"/>
 	<project name="android_kernel_htc_msm8974" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_primoc" remote="github" revision="jellybean"/>
 	<project name="android_kernel_htc_pyramid" remote="github" revision="jellybean"/>
 	<project name="android_kernel_htc_qsd8k" remote="github" revision="kitkat"/>
 	<project name="android_kernel_htc_shooter" remote="github" revision="ics"/>
-	<project name="android_kernel_lge_hammerhead" remote="github" revision="kitkat"/>
+	<project name="android_kernel_lge_hammerhead" remote="github" revision="ng-7.0"/>
 	<project name="android_kernel_lge_mako" remote="github" revision="kitkat"/>
 	<project name="android_kernel_lge_msm8974" remote="github" revision="kitkat"/>
 	<project name="android_kernel_lge_pecan" remote="github" revision="jellybean"/>
 	<project name="android_kernel_lge_v500" remote="github" revision="kitkat"/>
-	<project name="android_kernel_moto_shamu" remote="github" revision="lollipop-5.1"/>
+	<project name="android_kernel_moto_shamu" remote="github" revision="ng-7.0"/>
+	<project name="android_kernel_oneplus_msm8996" remote="github" revision="ng-7.0"/>
 	<project name="android_kernel_oppo_apq8064" remote="github" revision="kitkat"/>
 	<project name="android_kernel_oppo_msm8974" remote="github" revision="kitkat"/>
 	<project name="android_kernel_samsung_d2" remote="github" revision="kitkat"/>
 	<project name="android_kernel_samsung_jf" remote="github" revision="kitkat"/>
 	<project name="android_kernel_samsung_manta" remote="github" revision="jellybean"/>
-	<project name="android_kernel_samsung_msm8660" remote="github" revision="kitkat"/>
+	<project name="android_kernel_samsung_msm8660" remote="github" revision="ng-7.0"/>
+	<project name="android_kernel_samsung_msm8916" remote="github" revision="ng-7.0"/>
 	<project name="android_kernel_samsung_smdk4210" remote="github" revision="jellybean"/>
 	<project name="android_kernel_samsung_smdk4412" remote="github" revision="jellybean-4.3"/>
 	<project name="android_kernel_samsung_tuna" remote="github" revision="kitkat"/>
 	<project name="android_kernel_thunderc" remote="github" revision="LS670"/>
+	<project name="android_kernel_ti_omap" remote="github" revision="ng-7.1"/>
 	<project name="android_libcore" remote="github" revision="kitkat"/>
 	<project name="android_packages_apps_AccountsAndSyncSettings" remote="github" revision="gingerbread"/>
 	<project name="android_packages_apps_AndroidTerm" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Bluetooth" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_Apollo" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_AudioFX" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_Bluetooth" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_BluetoothExt" remote="github" revision="lollipop"/>
 	<project name="android_packages_apps_Browser" remote="github" revision="kitkat"/>
 	<project name="android_packages_apps_CMWimaxSettings" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Calendar" remote="github" revision="gingerbread"/>
+	<project name="android_packages_apps_Calculator" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Calendar" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_Camera" remote="github" revision="jellybean"/>
-	<project name="android_packages_apps_Camera2" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Contacts" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_ContactsCommon" remote="github" revision="lollipop"/>
+	<project name="android_packages_apps_Camera2" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_CellBroadcastReceiver" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Contacts" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_ContactsCommon" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_apps_CreoLauncher" remote="github" revision="gingerbread"/>
-	<project name="android_packages_apps_DeskClock" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Dialer" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_DSPManager" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_DeskClock" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Dialer" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_apps_EVNews" remote="github" revision="kitkat"/>
 	<project name="android_packages_apps_EVParts" remote="github" revision="gingerbread"/>
-	<project name="android_packages_apps_EVTips" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_EVToolbox" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_EVUpdater" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_EVWallpapers" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_EVWidgets" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Email" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_EVTips" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_EVToolbox" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_EVUpdater" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_EVWallpapers" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_EVWidgets" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Eleven" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_Email" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_ExactCalculator" remote="github" revision="ng-7.1"/>
 	<project name="android_packages_apps_FileManager" remote="github" revision="gingerbread"/>
-	<project name="android_packages_apps_Gallery2" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_Gallery2" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_Gallery3D" remote="github" revision="gingerbread"/>
-	<project name="android_packages_apps_InCallUI" remote="github" revision="lollipop"/>
+	<project name="android_packages_apps_InCallUI" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Jelly" remote="github" revision="ng-7.1"/>
 	<project name="android_packages_apps_Launcher2" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_Launcher3" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean"/>
+	<project name="android_packages_apps_Masquerade" remote="github" revision="ng-7.1"/>
+	<project name="android_packages_apps_Messaging" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_Mms" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Music" remote="github" revision="gingerbread"/>
+	<project name="android_packages_apps_Music" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Nfc" remote="github" revision="ng-7.0"/>
+	<project name="android_packages_apps_PackageInstaller" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_apps_Phone" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_PhoneCommon" remote="github" revision="lollipop"/>
+	<project name="android_packages_apps_PhoneCommon" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_apps_Protips" remote="github" revision="gingerbread"/>
 	<project name="android_packages_apps_Provision" remote="github" revision="kitkat"/>
 	<project name="android_packages_apps_SamsungServiceMode" remote="github" revision="kitkat"/>
-	<project name="android_packages_apps_Settings" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_Settings" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_SoundRecorder" remote="github" revision="gingerbread"/>
-	<project name="android_packages_apps_Stk" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_Stk" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_Sudo" remote="github" revision="ng-7.1"/>
 	<project name="android_packages_apps_Superuser" remote="github" revision="jellybean"/>
-	<project name="android_packages_apps_ThemeChooser" remote="github" revision="lollipop"/>
+	<project name="android_packages_apps_ThemeChooser" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_apps_ThemeInterfacer" remote="github" revision="ng-7.1"/>
 	<project name="android_packages_apps_Torch" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_UnifiedEmail" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_apps_VoiceDialer" remote="github" revision="kitkat"/>
-	<project name="android_packages_inputmethods_LatinIME" remote="github" revision="kitkat"/>
+	<project name="android_packages_apps_WallpaperPicker" remote="github" revision="ng-7.1"/>
+	<project name="android_packages_inputmethods_LatinIME" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_providers_CalendarProvider" remote="github" revision="gingerbread"/>
-	<project name="android_packages_providers_ContactsProvider" remote="github" revision="kitkat"/>
+	<project name="android_packages_providers_ContactsProvider" remote="github" revision="mm-6.0"/>
 	<project name="android_packages_providers_DownloadProvider" remote="github" revision="gingerbread"/>
-	<project name="android_packages_providers_MediaProvider" remote="github" revision="kitkat"/>
-	<project name="android_packages_providers_TelephonyProvider" remote="github" revision="kitkat"/>
-	<project name="android_packages_providers_ThemesProvider" remote="github" revision="lollipop"/>
-	<project name="android_packages_services_Mms" remote="github" revision="lollipop"/>
-	<project name="android_packages_services_Telecomm" remote="github" revision="lollipop"/>
-	<project name="android_packages_services_Telephony" remote="github" revision="kitkat"/>
+	<project name="android_packages_providers_MediaProvider" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_providers_TelephonyProvider" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_providers_ThemesProvider" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_services_Mms" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_services_Telecomm" remote="github" revision="mm-6.0"/>
+	<project name="android_packages_services_Telephony" remote="github" revision="ng-7.0"/>
 	<project name="android_packages_wallpapers_Basic" remote="github" revision="gingerbread"/>
 	<project name="android_packages_wallpapers_MagicSmoke" remote="github" revision="gingerbread"/>
 	<project name="android_prebuilt" remote="github" revision="jellybean"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="kitkat"/>
+	<project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="ng-7.0"/>
+	<project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" remote="github" revision="mm-6.0"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="kitkat"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.8" remote="github" revision="kitkat"/>
 	<project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.9" remote="github" revision="kitkat"/>
@@ -304,33 +368,53 @@
 	<project name="android_prebuilts_misc" remote="github" revision="kitkat"/>
 	<project name="android_sdk" remote="github" revision="kitkat"/>
 	<project name="android_system_bluetooth" remote="github" revision="gingerbread"/>
-	<project name="android_system_core" remote="github" revision="kitkat"/>
-	<project name="android_system_extras" remote="github" revision="kitkat"/>
-	<project name="android_system_media" remote="github" revision="ics"/>
-	<project name="android_system_netd" remote="github" revision="ics"/>
+	<project name="android_system_bt" remote="github" revision="ng-7.0"/>
+	<project name="android_system_core" remote="github" revision="ng-7.0"/>
+	<project name="android_system_extras" remote="github" revision="ng-7.0"/>
+	<project name="android_system_extras_su" remote="github" revision="ng-7.0"/>
+	<project name="android_system_media" remote="github" revision="ng-7.0"/>
+	<project name="android_system_netd" remote="github" revision="mm-6.0"/>
+	<project name="android_system_qcom" remote="github" revision="mm-6.0"/>
 	<project name="android_system_security" remote="github" revision="kitkat"/>
-	<project name="android_system_vold" remote="github" revision="kitkat"/>
+	<project name="android_system_sepolicy" remote="github" revision="ng-7.0"/>
+	<project name="android_system_vold" remote="github" revision="ng-7.0"/>
 	<project name="android_system_wlan_atheros" remote="github" revision="ics"/>
 	<project name="android_system_wlan_ti" remote="github" revision="jellybean"/>
 	<project name="android_ubuntu_assets" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_ubuntu_hybris" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_ubuntu_platform-api" remote="github" revision="jellybean-ubuntuphone"/>
 	<project name="android_ubuntu_uchroot" remote="github" revision="jellybean-ubuntuphone"/>
+	<project name="android_vendor_amazon" remote="github" revision="ng-7.1"/>
 	<project name="android_vendor_asus" remote="github" revision="kitkat"/>
-	<project name="android_vendor_ev" remote="github" revision="kitkat"/>
+	<project name="android_vendor_bn" remote="github" revision="mm-6.0"/>
+	<project name="android_vendor_ev" remote="github" revision="ng-7.0"/>
 	<project name="android_vendor_evervolv" remote="github" revision="gingerbread"/>
-	<project name="android_vendor_hp" remote="github" revision="kitkat"/>
-	<project name="android_vendor_htc" remote="github" revision="kitkat"/>
-	<project name="android_vendor_lge" remote="github" revision="kitkat"/>
-	<project name="android_vendor_moto" remote="github" revision="lollipop-5.1"/>
+	<project name="android_vendor_hp" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_htc" remote="github" revision="mm-6.0"/>
+	<project name="android_vendor_lge" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_moto" remote="github" revision="ng-7.0"/>
 	<project name="android_vendor_nvidia" remote="github" revision="gingerbread"/>
+	<project name="android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_oneplus" remote="github" revision="ng-7.0"/>
 	<project name="android_vendor_oppo" remote="github" revision="kitkat"/>
+	<project name="android_vendor_qcom_binaries" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_qcom_opensource_bluetooth" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="ng-7.1"/>
+	<project name="android_vendor_qcom_opensource_dataservices" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_qcom_opensource_display-frameworks" remote="github" revision="mm-6.0"/>
+	<project name="android_vendor_qcom_opensource_dpm" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_qcom_opensource_dtbtool" remote="github" revision="ng-7.1"/>
 	<project name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="github" revision="ics"/>
 	<project name="android_vendor_qcom_opensource_omx_mm-core" remote="github" revision="jellybean"/>
 	<project name="android_vendor_qcom_opensource_omx_mm-video" remote="github" revision="jellybean"/>
+	<project name="android_vendor_qcom_opensource_time-services" remote="github" revision="ng-7.0"/>
 	<project name="android_vendor_qcom_opensource_v8" remote="github" revision="ics"/>
 	<project name="android_vendor_qcom_opensource_webkit" remote="github" revision="gingerbread"/>
-	<project name="android_vendor_samsung" remote="github" revision="kitkat"/>
+	<project name="android_vendor_samsung" remote="github" revision="ng-7.0"/>
+	<project name="android_vendor_ti" remote="github" revision="ng-7.1"/>
+	<project name="android_vendor_widevine" remote="github" revision="ng-7.1"/>
 	<project name="evervolv_dot_com" remote="github" revision="master"/>
 	<project name="htc-kernel-msm7x30" remote="github" revision="android-msm-2.6.35-ics"/>
 	<project name="theme-Androidian-6-100" remote="github" revision="ics"/>
